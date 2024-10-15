@@ -202,5 +202,5 @@ export const checkAuth = async (req, res) => {
 };
 
 export const healthcheck = async (req, res) => {
-    res.status(20).json({ success: true, message:"ALL OK👍" });
+    res.status(200).json({ success: true, message:"ALL OK👍" });
 }
